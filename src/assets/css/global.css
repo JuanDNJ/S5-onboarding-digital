@@ -1,0 +1,5 @@
+@import "./root.css";
+
+h1{
+    @apply text-3xl p-4 underline;
+}
