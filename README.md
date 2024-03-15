@@ -5,7 +5,24 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 ![Imagen](./public/img-tres-cards.png)
 
+## Passos a seguir
+
+1. Crear un component: Card.
+
+2. Carregar el component Card dins del component App.
+
+3. En el component App, defineix l'array tutorialData, que conté la informació de cada pas que es mostrarà a l'usuari.
+
+4. Crea el primer estat mitjançant el hook useState, per portar el compte del pas en què ens trobem.
+
+5. Passa mitjançant props les dades del primer pas al component Card.
+
+6. Utilitza a Card.js les dades proporcionades per props per mostrar a l'usuari el títol i la descripció del primer pas.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+## Resultat
+
+![Imagen](./public/resultado.png)
 
 Currently, two official plugins are available:
 
