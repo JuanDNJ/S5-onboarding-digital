@@ -3,7 +3,7 @@
 La creació d'un Onboarding digital. Aquesta aplicació dispondrà de dos botons per a avançar o retrocedir a través de les frases, amb l'acompanyament d'una imatge que es modificarà.
 A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el moment de la seva utilització, només es visualitzarà una pantalla a la vegada.
 
-[Imagen](./img-tres-cards.png)
+![Imagen](./public/img-tres-cards.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
