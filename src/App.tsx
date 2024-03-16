@@ -6,6 +6,8 @@ function App() {
 
   const [step, setStep] = useState(0)
   
+  const nextStep = () => setStep(stat => stat + 1)
+
   const tutorialData: CardData[] = [
     {
         title:"Dedica moltes hores",

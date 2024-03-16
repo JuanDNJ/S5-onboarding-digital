@@ -29,7 +29,7 @@ Per ara, la teva aplicació pot mostrar només una frase. En aquest exercici far
 
 En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari/ària.
 
-1. Implementar una funció nextStep a App.js, que vagi incrementant el valor de l'estat step en una unitat.
+1. Implementar una funció nextStep a App.js, que vagi incrementant el valor de l'estat step en una unitat.   ✔️
 
 2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step", 
 
