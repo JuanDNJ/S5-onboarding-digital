@@ -9,7 +9,7 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 1. Crear un component: Card. ✔️
 
-2. Carregar el component Card dins del component App.
+2. Carregar el component Card dins del component App.  ✔️
 
 3. En el component App, defineix l'array tutorialData, que conté la informació de cada pas que es mostrarà a l'usuari.
 
