@@ -40,6 +40,16 @@ Has de maquetar el component Card de forma responsive. ✔️
 
 ![Maquetacion](./public/maquetacion.png)
 
+## Ara cal programar la funcionalitat que permet retrocedir un pas en el tutorial
+
+Crea la funció prevStep al component App, similar a nextStep, però que resti una unitat a l'estat step cada vegada que s'executa.
+Passa aquesta funció al component Card mitjançant props i fer-los servir en el JSX.
+Hauràs de fer ús del renderitzat condicional per mostrar i amagar els botons de retrocedir i avançar.
+
+1. Pas 1: només es mostra el botó d'avançar.
+2. Pas 2: es mostren els botons d'avançar i retrocedir.
+3. Pas 3: es mostra el botó de retrocedir.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
