@@ -7,7 +7,7 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 ## Passos a seguir
 
-1. Crear un component: Card.
+1. Crear un component: Card. ✔️
 
 2. Carregar el component Card dins del component App.
 
