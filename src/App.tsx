@@ -25,7 +25,7 @@ function App() {
     }
 ]
   return (
-      <Card />
+      <Card currentCardData={tutorialData[step]}/>
   )
 }
 

@@ -1,7 +1,7 @@
-const Card = () => {
+const Card = ({currentCardData = {}}) => {
     return (
         <article>
-
+            {JSON.stringify(currentCardData)}
         </article>
     )
 }
