@@ -1,5 +1,9 @@
+import { useState } from "react"
 import Card from "./components/Card"
 function App() {
+
+  const [step, setStep] = useState(0)
+  
   const tutorialData: [] = [
     {
         title:"Dedica moltes hores",
