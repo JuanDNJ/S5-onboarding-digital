@@ -1,9 +1,19 @@
-const Card = ({currentCardData = {}}) => {
-    return (
-        <article>
-            {JSON.stringify(currentCardData)}
-        </article>
-    )
-}
+import type { CardData } from "../../types";
 
-export default Card
+const initCardData: CardData = {
+  title: "",
+  description: "",
+  bgColor: "",
+  image: "",
+};
+
+const Card = ({ currentCardData = initCardData }) => {
+  return (
+    <article>
+      <h2>{currentCardData.title}</h2>
+      <p>{currentCardData.description}</p>
+    </article>
+  );
+};
+
+export default Card;

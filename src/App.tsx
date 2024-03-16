@@ -1,10 +1,12 @@
+import type { CardData } from "./types"
 import { useState } from "react"
 import Card from "./components/Card"
+
 function App() {
 
   const [step, setStep] = useState(0)
   
-  const tutorialData: [] = [
+  const tutorialData: CardData[] = [
     {
         title:"Dedica moltes hores",
         description:"Un minim de 30 hores a la setmana. Si no en tens prou, haurás de dedicar-li més hores. Al principi sembla impossible, peró notarás una millora rápidament.",

@@ -17,7 +17,8 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 5. Passa mitjançant props les dades del primer pas al component Card.   ✔️
 
-6. Utilitza a Card.js les dades proporcionades per props per mostrar a l'usuari el títol i la descripció del primer pas.
+6. Utilitza a Card.js les dades proporcionades per props per mostrar a l'usuari el títol i la descripció del primer pas.   ✔️
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 ## Resultat
