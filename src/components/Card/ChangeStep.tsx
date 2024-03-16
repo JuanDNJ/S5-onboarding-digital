@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 const ChangeStep = ({
   children,
-  action = () => {},
+  action,
 }: {
   children: React.ReactNode;
   action: () => void;
