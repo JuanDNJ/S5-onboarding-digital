@@ -29,7 +29,7 @@ function App() {
     }
 ]
   return (
-      <Card currentCardData={tutorialData[step]}/>
+      <Card currentCardData={tutorialData[step]} next={nextStep}/>
   )
 }
 

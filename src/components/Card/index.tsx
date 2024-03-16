@@ -1,17 +1,14 @@
-import type { CardData } from "../../types";
+import {initCardData} from "../../utils"
+import ChangeStep from "./ChangeStep";
 
-const initCardData: CardData = {
-  title: "",
-  description: "",
-  bgColor: "",
-  image: "",
-};
-
-const Card = ({ currentCardData = initCardData }) => {
+const Card = ({ currentCardData = initCardData, next = () => {}}) => {
   return (
     <article>
       <h2>{currentCardData.title}</h2>
       <p>{currentCardData.description}</p>
+      <ChangeStep action={next}>
+        Next
+      </ChangeStep>
     </article>
   );
 };

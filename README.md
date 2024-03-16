@@ -31,9 +31,9 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 
 1. Implementar una funció nextStep a App.js, que vagi incrementant el valor de l'estat step en una unitat.   ✔️
 
-2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step", 
+2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step".   ✔️
 
-3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.
+3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.   ✔️
 
 Currently, two official plugins are available:
 
