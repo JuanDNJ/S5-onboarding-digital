@@ -1,4 +1,4 @@
-export const NextIcon = ({ color = "#333" }) => {
+export const NextIcon = ({color = "#333"}:{color:string}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

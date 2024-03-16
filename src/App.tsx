@@ -7,6 +7,7 @@ function App() {
   const [step, setStep] = useState(0)
   
   const nextStep = () => setStep(stat => stat + 1)
+  const backStep = () => setStep(stat => stat - 1)
 
   const tutorialData: CardData[] = [
     {
@@ -30,7 +31,7 @@ function App() {
 ]
   return (
       <section className="container">
-        <Card currentCardData={tutorialData[step]} next={nextStep}/>
+        <Card currentCardData={tutorialData[step]} next={nextStep} back={backStep} step={step}/>
       </section>
   )
 }

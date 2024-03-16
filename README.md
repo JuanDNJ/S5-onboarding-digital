@@ -32,6 +32,7 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 1. Implementar una funció nextStep a App.js, que vagi incrementant el valor de l'estat step en una unitat.   ✔️
 
 2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step".✔️
+
 3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.
 
 ## Maquetar el component Card
@@ -46,9 +47,9 @@ Crea la funció prevStep al component App, similar a nextStep, però que resti u
 Passa aquesta funció al component Card mitjançant props i fer-los servir en el JSX.
 Hauràs de fer ús del renderitzat condicional per mostrar i amagar els botons de retrocedir i avançar.
 
-1. Pas 1: només es mostra el botó d'avançar.
-2. Pas 2: es mostren els botons d'avançar i retrocedir.
-3. Pas 3: es mostra el botó de retrocedir.
+1. Pas 1: només es mostra el botó d'avançar.   ✔️
+2. Pas 2: es mostren els botons d'avançar i retrocedir.   ✔️
+3. Pas 3: es mostra el botó de retrocedir.   ✔️
 
 Currently, two official plugins are available:
 

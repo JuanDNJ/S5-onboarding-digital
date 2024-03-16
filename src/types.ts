@@ -4,4 +4,4 @@ export type CardData = {
     bgColor: string,
     image: string
 }
-
+export type Action = () => void;
