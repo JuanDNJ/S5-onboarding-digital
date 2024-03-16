@@ -1,9 +1,8 @@
-
-
+import styles from "./styles.module.css";
 const ChangeStep = ({children = 'Next' , action = () => {}}) => {
 
     return (
-        <button onClick={action}>
+        <button className={styles.btnAction} onClick={action}>
             {children}
         </button>
     )

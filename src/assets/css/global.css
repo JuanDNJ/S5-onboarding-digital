@@ -1,5 +1,9 @@
 @import "./root.css";
 
-h1{
-    @apply text-3xl p-4 underline;
+body{
+    @apply bg-stone-200
+}
+
+.container{
+    @apply grid max-w-7xl h-dvh mx-auto justify-center items-center
 }
