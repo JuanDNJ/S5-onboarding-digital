@@ -2,6 +2,7 @@ import { initCardData } from "../../utils";
 import ChangeStep from "./ChangeStep";
 import StepsView from "./StepsView";
 import styles from "./styles.module.css";
+import { NextIcon } from "../icons/NextIcon";
 
 const Card = ({ currentCardData = initCardData, next = () => {} }) => {
   return (
@@ -15,7 +16,9 @@ const Card = ({ currentCardData = initCardData, next = () => {} }) => {
       </section>
       <aside className={styles.cardActions}>
         <StepsView />
-        <ChangeStep action={next}>Next</ChangeStep>
+        <ChangeStep action={next}>
+            <NextIcon color={'#fff'} />
+        </ChangeStep>
       </aside>
     </article>
   );
