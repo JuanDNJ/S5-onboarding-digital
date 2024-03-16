@@ -21,7 +21,7 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Maquetar el component Card
+## Resultat
 
 ![Resultado](./public/resultado.png)
 
@@ -35,7 +35,7 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
   ✔️
 3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.
 
-## Maq
+## Maquetar el component Card
 
 Has de maquetar el component Card de forma responsive.
 
