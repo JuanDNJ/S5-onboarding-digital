@@ -23,7 +23,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Resultat
 
-![Imagen](./public/resultado.png)
+![Resultado](./public/resultado.png)
 
 Per ara, la teva aplicació pot mostrar només una frase. En aquest exercici farem que pugui mostrar totes les frases de l'onBoarding.
 
@@ -37,7 +37,7 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 
 Has de maquetar el component Card de forma responsive.
 
-![Imagen](./public/maquetacion.png)
+![Maquetacion](./public/maquetacion.png)
 
 Currently, two official plugins are available:
 
