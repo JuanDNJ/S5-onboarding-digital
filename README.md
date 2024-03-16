@@ -21,7 +21,7 @@ A continuació, presentem un exemple de les 3 pantalles de l'aplicació. En el m
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Resultat
+## Maquetar el component Card
 
 ![Resultado](./public/resultado.png)
 
@@ -34,6 +34,8 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step".   ✔️
   ✔️
 3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.
+
+## Maq
 
 Has de maquetar el component Card de forma responsive.
 
