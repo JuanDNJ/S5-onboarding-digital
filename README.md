@@ -25,6 +25,16 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ![Imagen](./public/resultado.png)
 
+Per ara, la teva aplicació pot mostrar només una frase. En aquest exercici farem que pugui mostrar totes les frases de l'onBoarding.
+
+En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari/ària.
+
+1. Implementar una funció nextStep a App.js, que vagi incrementant el valor de l'estat step en una unitat.
+
+2. Passa per props al component Card, la funció nextStep i crida-la des del JSX del component Card. D'aquesta manera, quan l'usuari/ària faci clic al botó en el component Card, s'executarà la funció nextStep, que en modificar el valor de l'estat "step", 
+
+3. Veuràs que passa el següent objecte de l'array tutorialData al component Card.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh

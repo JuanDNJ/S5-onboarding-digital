@@ -9,7 +9,7 @@ function App() {
   const tutorialData: CardData[] = [
     {
         title:"Dedica moltes hores",
-        description:"Un minim de 30 hores a la setmana. Si no en tens prou, haurás de dedicar-li més hores. Al principi sembla impossible, peró notarás una millora rápidament.",
+        description:"Un mínim de 30 hores a la setmana. Si no en tens prou, hauràs de dedicar-li més hores. Al principi sembla impossible, peró notarás una millora rápidament.",
         bgColor:"blue",
         image: "./hores.png"
     },
