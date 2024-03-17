@@ -8,6 +8,10 @@ function App() {
   
   const nextStep = () => setStep(stat => stat + 1)
   const backStep = () => setStep(stat => stat - 1)
+  const actions = {
+    next: nextStep,
+    back: backStep
+  }
 
   const tutorialData: CardData[] = [
     {
@@ -31,7 +35,7 @@ function App() {
 ]
   return (
       <section className="container">
-        <Card currentCardData={tutorialData[step]} next={nextStep} back={backStep} step={step}/>
+        <Card currentCardData={tutorialData[step]} actions={actions} step={step} cardData={tutorialData}/>
       </section>
   )
 }

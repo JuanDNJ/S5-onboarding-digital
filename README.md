@@ -53,10 +53,10 @@ Hauràs de fer ús del renderitzat condicional per mostrar i amagar els botons d
 
 ## Implementa l'indicador del pas en què ens trobem
 
-1. Crea el component Indicator.js i carrega'l dins del component Card.
-2. Passa per props la quantitat de passos del tutorial (tutorialData.length o tutorailData) i el pas en què ens trobem (step).
+1. Crea el component Indicator.js i carrega'l dins del component Card.✔️
+2. Passa per props la quantitat de passos del tutorial (tutorialData.length o tutorailData) i el pas en què ens trobem (step).✔️
 3. Amb les dades proporcionades per les propietats, pinta dinàmicament el número de boletes utilitzant un .map.
-4. Destaca la boleta on ens trobem fent servir styled components.
+4. Destaca la boleta on ens trobem fent servir styled components.✔️
 
 ## React + TypeScript + Vite
 
