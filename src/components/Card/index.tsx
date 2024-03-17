@@ -25,10 +25,10 @@ const Card = ({
         />
       );
   });
-  
+
   return (
     <article className={styles.card}>
-      <header className={styles.cardHeader}>{images}</header>
+      <header  className={styles.cardHeader} style={{background: `${currentCardData.bgColor}`}}>{images}</header>
       <section className={styles.cardHBody}>
         <h2 className={styles.title}>
           {!currentCardData.title ? "Error" : currentCardData.title}

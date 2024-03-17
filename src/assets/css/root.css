@@ -8,7 +8,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-
+/* :root{
+  --header-bg-color: blue;
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
