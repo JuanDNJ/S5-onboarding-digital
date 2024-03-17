@@ -39,7 +39,7 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 
 Has de maquetar el component Card de forma responsive. ✔️
 
-![Card](https://itacademy.barcelonactiva.cat/pluginfile.php/26732/mod_assign/intro/Imatge4S5.png)
+![Card](./public/maquetacion.png)
 
 ## Ara cal programar la funcionalitat que permet retrocedir un pas en el tutorial
 
@@ -50,6 +50,15 @@ Hauràs de fer ús del renderitzat condicional per mostrar i amagar els botons d
 1. Pas 1: només es mostra el botó d'avançar.   ✔️
 2. Pas 2: es mostren els botons d'avançar i retrocedir.   ✔️
 3. Pas 3: es mostra el botó de retrocedir.   ✔️
+
+## Implementa l'indicador del pas en què ens trobem
+
+1. Crea el component Indicator.js i carrega'l dins del component Card.
+2. Passa per props la quantitat de passos del tutorial (tutorialData.length o tutorailData) i el pas en què ens trobem (step).
+3. Amb les dades proporcionades per les propietats, pinta dinàmicament el número de boletes utilitzant un .map.
+4. Destaca la boleta on ens trobem fent servir styled components.
+
+## React + TypeScript + Vite
 
 Currently, two official plugins are available:
 
