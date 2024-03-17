@@ -1,7 +1,7 @@
+import styles from "./styles.module.css";
 import type { CardData, Action } from "../../types";
 import ChangeStep from "./ChangeStep";
 import Indicator from "./Indicator";
-import styles from "./styles.module.css";
 import { NextIcon } from "../icons/NextIcon";
 import { BackIcon } from "../icons/BackIcon";
 
