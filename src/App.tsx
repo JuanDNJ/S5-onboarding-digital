@@ -7,6 +7,7 @@ function App() {
 
   const nextStep = () => setStep((stat) => stat + 1);
   const backStep = () => setStep((stat) => stat - 1);
+
   const actions = {
     next: nextStep,
     back: backStep,
@@ -35,6 +36,7 @@ function App() {
       image: "./programming.svg",
     },
   ];
+  
   return (
     <section className="container">
       <Card

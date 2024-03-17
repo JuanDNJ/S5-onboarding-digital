@@ -33,19 +33,20 @@
 }
 .step {
   @apply p-[2px] bg-stone-400 w-[4px] h-[4px] rounded-[2px];
-  transition: width 600ms ease-in-out;
+  transition: width 300ms ease-in-out;
 }
 .stepSelected {
   @apply p-[2px] bg-stone-500 w-[16px] h-[4px] rounded-[2px];
+  transition: width 300ms ease-in-out;
 }
 .cardImg {
   @apply aspect-video;
 }
 .cardImg {
-  animation: imgRight 600ms forwards;
+  animation: imgRight 300ms forwards;
 }
 .active {
-  animation: imgLeft 600ms forwards;
+  animation: imgLeft 300ms forwards;
 }
 
 @keyframes imgRight {
