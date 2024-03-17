@@ -7,7 +7,7 @@ const Indicator = ({
   indicators: CardData[];
   step: number;
 }) => {
-  console.log(indicators);
+  
   return (
     <div className={styles.contentSteps}>
       {indicators.map((res, index) => {

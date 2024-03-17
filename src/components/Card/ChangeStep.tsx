@@ -3,14 +3,17 @@ import styles from "./styles.module.css";
 const ChangeStep = ({
   children,
   action,
-  btnBack
+  btnBack,
+  animation,
 }: {
   children: React.ReactNode;
   action: () => void;
-  btnBack: boolean
+  btnBack: boolean,
+  animation: () => void,
 }) => {
+
   return (
-    <button className={btnBack ? `${styles.btnAction} ${styles.back}` : `${styles.btnAction} ${styles.next}`}onClick={action}>
+    <button onClick={action} onFocus={animation} className={btnBack ? `${styles.btnAction} ${styles.back}` : `${styles.btnAction} ${styles.next}`}>
       {children}
     </button>
   );
