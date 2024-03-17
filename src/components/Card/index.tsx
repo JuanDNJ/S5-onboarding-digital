@@ -1,6 +1,6 @@
 import type { CardData, Action } from "../../types";
 import ChangeStep from "./ChangeStep";
-import StepsView from "./StepsView";
+import Indicator from "./Indicator";
 import styles from "./styles.module.css";
 import { NextIcon } from "../icons/NextIcon";
 import { BackIcon } from "../icons/BackIcon";
@@ -34,7 +34,7 @@ const Card = ({
         </p>
       </section>
       <aside className={styles.cardActions}>
-        <StepsView />
+        <Indicator />
         <div className={styles.contentActions}>
           {step === 0 && (
             <ChangeStep action={next} btnBack={false}>

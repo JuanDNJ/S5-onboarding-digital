@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-const StepsView = () => {
+const Indicator = () => {
     return (
         <div className={styles.contentSteps}>
             <span className={styles.stepSelected}></span>
@@ -9,4 +9,4 @@ const StepsView = () => {
     )
 }
 
-export default StepsView
+export default Indicator
