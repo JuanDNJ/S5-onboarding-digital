@@ -39,7 +39,7 @@ En aquest exercici farem que es vagin mostrant els diferents passos a l’usuari
 
 Has de maquetar el component Card de forma responsive. ✔️
 
-![Maquetacion](https://itacademy.barcelonactiva.cat/pluginfile.php/26732/mod_assign/intro/Imatge4S5.png)
+![Card](https://itacademy.barcelonactiva.cat/pluginfile.php/26732/mod_assign/intro/Imatge4S5.png)
 
 ## Ara cal programar la funcionalitat que permet retrocedir un pas en el tutorial
 
