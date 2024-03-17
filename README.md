@@ -24,6 +24,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## Resultat
 
 ![Resultado](./public/resultado.png)
+![Imagen](./public/img-tres-cards.png)
 
 Per ara, la teva aplicació pot mostrar només una frase. En aquest exercici farem que pugui mostrar totes les frases de l'onBoarding.
 
