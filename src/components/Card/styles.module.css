@@ -2,8 +2,7 @@
   @apply flex flex-col bg-white rounded-3xl max-w-[325px] overflow-hidden;
 }
 .cardHeader {
-  @apply  h-96 flex items-center justify-center;
- 
+  @apply h-96 flex items-center justify-center;
 }
 .cardHBody {
   @apply p-4;
@@ -34,6 +33,7 @@
 }
 .step {
   @apply p-[2px] bg-stone-400 w-[4px] h-[4px] rounded-[2px];
+  transition: width 600ms ease-in-out;
 }
 .stepSelected {
   @apply p-[2px] bg-stone-500 w-[16px] h-[4px] rounded-[2px];
