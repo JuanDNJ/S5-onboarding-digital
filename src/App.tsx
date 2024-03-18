@@ -40,7 +40,7 @@ function App() {
   return (
     <section className="container">
       <Card
-        currentCardData={tutorialData[step]}
+        cards={tutorialData}
         actions={actions}
         step={step}
         cardData={tutorialData}
