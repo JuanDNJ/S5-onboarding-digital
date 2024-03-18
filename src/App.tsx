@@ -1,7 +1,7 @@
 import type { CardData } from "./types";
 import { useState } from "react";
 import Card from "./components/Card";
-
+import ChangeTramsition from "./components/ChangeTransition";
 function App() {
   const [step, setStep] = useState(0);
 
@@ -39,6 +39,7 @@ function App() {
   
   return (
     <section className="container">
+      <ChangeTramsition />
       <Card
         cards={tutorialData}
         actions={actions}
