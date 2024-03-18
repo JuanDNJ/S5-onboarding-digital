@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "../css/styles.module.css";
 
 const ChangeStep = ({
   children,

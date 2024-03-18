@@ -1,8 +1,8 @@
-import styles from "./styles.module.css";
+import styles from "../css/styles.module.css";
 import ChangeStep from "./ChangeStep";
-import { Action } from "../../types";
-import { NextIcon } from "../icons/NextIcon";
-import { BackIcon } from "../icons/BackIcon";
+import { Action } from "../../../types";
+import { NextIcon } from "../../icons/NextIcon";
+import { BackIcon } from "../../icons/BackIcon";
 
 const ContainerButtons = ({
   actions,

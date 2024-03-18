@@ -1,5 +1,5 @@
-import {CardData } from "../../types";
-import styles from "./styles.module.css";
+import {CardData } from "../../../types";
+import styles from "../css/styles.module.css";
 const Indicator = ({
   indicators,
   step
