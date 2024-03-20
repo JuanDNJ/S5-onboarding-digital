@@ -1,11 +1,20 @@
 .contentSteps {
-    @apply flex items-center gap-2 max-h-5;
-  }
+  @apply flex items-center gap-2 max-h-5;
+}
 .step {
-  @apply p-[2px] bg-stone-400 w-[4px] h-[4px] rounded-[2px];
-  transition: width 300ms ease-in-out;
+  @apply w-[5px] h-[5px] bg-stone-500 rounded-full;
+
 }
 .stepSelected {
-  @apply p-[2px] bg-stone-500 w-[16px] h-[4px] rounded-[2px];
-  transition: width 300ms ease-in-out;
+  @apply h-[5px] bg-pink-500  rounded-full;
+  animation: stepSelected 300ms ease-in-out forwards;
+}
+
+@keyframes stepSelected {
+  0% {
+    width: 5px;
+  }
+  100% {
+    width: 15px;
+  }
 }
