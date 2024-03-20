@@ -2,6 +2,7 @@ import ChangeStep from "./ChangeStep";
 import { Action } from "../../../types";
 import { NextIcon } from "../../icons/NextIcon";
 import { BackIcon } from "../../icons/BackIcon";
+import cardStyle from "../css/card.module.css";
 
 const ContainerButtons = ({
   actions,
@@ -13,31 +14,21 @@ const ContainerButtons = ({
   length: number;
 }) => {
 
-  console.log(length)
+  
   return (
-    <article className="contentActions">
-      {step === 0 && (
-        <ChangeStep action={actions.next} btnBack={false}>
-          <NextIcon color={"#fff"} />
-        </ChangeStep>
-      )}
-      {step === 1 && (
-        <>
-          <ChangeStep action={actions.back} btnBack>
-            <BackIcon color={"#333"} />
-          </ChangeStep>
-          <ChangeStep action={actions.next} btnBack={false}>
-            <NextIcon color={"#fff"} />
-          </ChangeStep>
-        </>
-      )}
-      {step === 2 && (
-        <>
-          <ChangeStep action={actions.back} btnBack>
-            <BackIcon color={"#333"} />
-          </ChangeStep>
-        </>
-      )}
+    <article className={cardStyle.contentActions}>
+      {step > 0 || step === length  ? (
+       <ChangeStep action={actions.back} btnBack>
+       <BackIcon color={"#333"} />
+     </ChangeStep>
+      ): null}
+      
+      {step === 0 || step < length  ? (
+         <ChangeStep action={actions.next} btnBack={false}>
+         <NextIcon color={"#fff"} />
+       </ChangeStep>
+          
+      ): null}
     </article>
   );
 };

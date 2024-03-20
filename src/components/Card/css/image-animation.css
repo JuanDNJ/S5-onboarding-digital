@@ -1,16 +1,41 @@
-.fade-enter{
-    opacity: 0;
- }
- .fade-exit{
-    opacity: 1;
- }
- .fade-enter-active{
-    opacity: 1;
- }
- .fade-exit-active{
-    opacity: 0;
- }
- .fade-enter-active,
- .fade-exit-active{
-    transition: opacity 500ms;
- }
+.fade-enter.container-image {
+  opacity: 0;
+  animation: fadeEnter 300ms ease-in-out forwards;
+}
+.fade-exit.container-image {
+  opacity: 1;
+  animation: fadeExit 300ms ease-in-out forwards;
+}
+.fade-enter-active.container-image {
+  opacity: 1;
+ 
+}
+.fade-exit-active.container-image {
+  opacity: 0;
+
+}
+.fade-enter-active.container-image,
+.fade-exit-active.container-image {
+  transition: opacity 500ms;
+}
+.image{
+  @apply aspect-video
+}
+
+@keyframes fadeEnter {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeExit {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

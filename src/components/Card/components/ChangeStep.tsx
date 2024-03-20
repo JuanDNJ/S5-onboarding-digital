@@ -1,4 +1,4 @@
-
+import cardStyle from "../css/card.module.css";
 const ChangeStep = ({
   children,
   action,
@@ -13,8 +13,8 @@ const ChangeStep = ({
       onClick={action}
       className={
         btnBack
-          ? `btnAction back`
-          : `btnAction next`
+          ? `${cardStyle.btnAction} ${cardStyle.back}`
+          : `${cardStyle.btnAction}  ${cardStyle.next}`
       }
     >
       {children}

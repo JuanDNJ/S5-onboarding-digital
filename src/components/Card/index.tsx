@@ -1,4 +1,4 @@
-import "./css/styles.css";
+import cardStyle from "./css/card.module.css";
 import type { CardData, Action } from "../../types";
 import Indicator from "./components/Indicator";
 import ContainerButtons from "./components/ContainerButtons";
@@ -15,24 +15,24 @@ const Card = ({
   cardData: CardData[];
 }) => {
   return (
-    <article className="card">
+    <article className={cardStyle.card}>
       <header
-        className=""
+        className={cardStyle.cardHeader}
         style={{ background: `${cardData[step].bgColor}` }}
       >
         <ImageAnimation step={step} src={cardData[step].image}/>
       </header>
-      <section className="cardHBody">
-        <h2 className="title">
-          {!cardData[step].title ? "Error" : cardData[step].title}
+      <section className={cardStyle.cardHBody}>
+        <h2 className={cardStyle.title}>
+          {cardData[step].title }
         </h2>
-        <p className="paragraf">
+        <p className={cardStyle.description}>
           {!cardData[step].description ? "Error" : cardData[step].description}
         </p>
       </section>
-      <footer className="cardActions">
+      <footer className={cardStyle.cardActions}>
         <Indicator indicators={cardData} step={step} />
-        <ContainerButtons length={cardData.length} actions={actions} step={step} />
+        <ContainerButtons length={cardData.length - 1} actions={actions} step={step} />
       </footer>
     </article>
   );

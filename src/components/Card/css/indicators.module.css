@@ -1,0 +1,11 @@
+.contentSteps {
+    @apply flex items-center gap-2 max-h-5;
+  }
+.step {
+  @apply p-[2px] bg-stone-400 w-[4px] h-[4px] rounded-[2px];
+  transition: width 300ms ease-in-out;
+}
+.stepSelected {
+  @apply p-[2px] bg-stone-500 w-[16px] h-[4px] rounded-[2px];
+  transition: width 300ms ease-in-out;
+}
