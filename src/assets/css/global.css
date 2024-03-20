@@ -1,26 +1,10 @@
 @import "./root.css";
 
-body{
-    @apply bg-stone-200
+body {
+  @apply bg-stone-200;
+
+}
+.container {
+  @apply grid max-w-7xl h-dvh mx-auto justify-center items-center;
 }
 
-.container{
-    @apply grid max-w-7xl h-dvh mx-auto justify-center items-center
-}
-
-.fade-enter{
-    opacity: 0;
- }
- .fade-exit{
-    opacity: 1;
- }
- .fade-enter-active{
-    opacity: 1;
- }
- .fade-exit-active{
-    opacity: 0;
- }
- .fade-enter-active,
- .fade-exit-active{
-    transition: opacity 500ms;
- }

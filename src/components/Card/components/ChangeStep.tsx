@@ -1,4 +1,3 @@
-import styles from "../css/styles.module.css";
 
 const ChangeStep = ({
   children,
@@ -14,8 +13,8 @@ const ChangeStep = ({
       onClick={action}
       className={
         btnBack
-          ? `${styles.btnAction} ${styles.back}`
-          : `${styles.btnAction} ${styles.next}`
+          ? `btnAction back`
+          : `btnAction next`
       }
     >
       {children}

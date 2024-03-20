@@ -1,4 +1,3 @@
-import styles from "../css/styles.module.css";
 import ChangeStep from "./ChangeStep";
 import { Action } from "../../../types";
 import { NextIcon } from "../../icons/NextIcon";
@@ -7,12 +6,16 @@ import { BackIcon } from "../../icons/BackIcon";
 const ContainerButtons = ({
   actions,
   step,
+  length,
 }: {
   actions: { next: Action; back: Action };
   step: number;
+  length: number;
 }) => {
+
+  console.log(length)
   return (
-    <article className={styles.contentActions}>
+    <article className="contentActions">
       {step === 0 && (
         <ChangeStep action={actions.next} btnBack={false}>
           <NextIcon color={"#fff"} />

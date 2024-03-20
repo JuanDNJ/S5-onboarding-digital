@@ -1,5 +1,5 @@
 import {CardData } from "../../../types";
-import styles from "../css/styles.module.css";
+
 const Indicator = ({
   indicators,
   step
@@ -9,14 +9,14 @@ const Indicator = ({
 }) => {
   
   return (
-    <div className={styles.contentSteps}>
+    <div className="contentSteps">
       {indicators.map((res, index) => {
           let activeStep: React.ReactNode = (
-            <span key={res.title} className={styles.step}></span>
+            <span key={res.title} className="step"></span>
           );
           if (index === step) {
             activeStep = (
-              <span key={res.title} className={styles.stepSelected}></span>
+              <span key={res.title} className="stepSelected"></span>
             );
           }
           return activeStep;

@@ -1,5 +1,5 @@
 .card {
-  @apply flex flex-col bg-white rounded-3xl max-w-[325px] overflow-hidden;
+  @apply flex flex-col bg-white rounded-3xl max-w-[320px] overflow-hidden ;
 }
 .cardHeader {
   @apply h-96 flex items-center justify-center;
@@ -41,15 +41,22 @@
 }
 .cardImg {
   @apply aspect-video;
+  max-width: 320px;
+  animation: slideRight 600ms forwards;
 }
-.cardImg {
-  animation: imgRight 300ms forwards;
+.frame{
+  max-width: 320px;
+   overflow: hidden;
 }
-.active {
-  animation: imgLeft 300ms forwards;
+.frame > div {
+  transition: transform 200ms ease-in-out;
+  display: flex;
+  width: 100vw;
 }
-
-@keyframes imgRight {
+.slideLeft{
+  animation: slideLeft 3000ms forwards;
+}
+@keyframes slideRight {
   0% {
     transform: translateX(100%);
     opacity: 0;
@@ -59,13 +66,31 @@
     opacity: 1;
   }
 }
-@keyframes imgLeft {
+@keyframes slideLeft {
   0% {
     transform: translateX(0);
-    opacity: 1;
   }
   100% {
     transform: translateX(-100%);
-    opacity: 0;
   }
 }
+
+/* .fade-enter{
+  opacity: 0;
+  animation: slideLeft 300ms forwards;
+}
+.fade-exit .cardsImages{
+  opacity: 1;
+  animation: slideRight 300ms forwards;
+}
+.fade-enter-active .cardsImages{
+  opacity: 1;
+}
+.fade-exit-active .cardsImages{
+  opacity: 0;
+}
+.fade-enter-active .cardsImages,
+.fade-exit-active .cardsImages{
+  transition: opacity 500ms;
+} */
+
