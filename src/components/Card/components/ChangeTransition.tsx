@@ -1,21 +1,18 @@
-
+import "../css/transition.css";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
 
-const ChangeTramsition = ({src}:{src:string}) => {
-
-console.log(src)
-
+const ChangeTramsition = ({ state }: { state: string }) => {
   return (
-      <SwitchTransition>
-        <CSSTransition
-          key={src}
-          addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}
-          className='fade'
-        >
-           <div className="cards_images">
-              <img src={src} alt={src} />
-           </div>
-        </CSSTransition>
+    <SwitchTransition>
+      <CSSTransition
+        key={state}
+        addEndListener={(node, done) =>
+          node.addEventListener("transitionend", done, false)
+        }
+        className="fade"
+      >
+        <img src={state} alt="Card Image" />
+      </CSSTransition>
     </SwitchTransition>
   );
 };

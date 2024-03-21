@@ -4,10 +4,13 @@ import { tutorialData } from "./data";
 
 
 const  App = () =>  {
+import { tutorialData } from "./data";
+
+const App = () => {
   const [step, setStep] = useState(0);
 
-  const nextStep = () => setStep((stat) => stat + 1);
-  const backStep = () => setStep((stat) => stat - 1);
+  const nextStep = () => setStep((step) => step + 1);
+  const backStep = () => setStep((step) => step - 1);
 
   const actions = {
     next: nextStep,
@@ -23,6 +26,6 @@ const  App = () =>  {
       />
     </section>
   );
-}
+};
 
 export default App;
