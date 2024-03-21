@@ -16,13 +16,13 @@ export const tutorialData: CardData[] = [
     description:
       "Més val 10 hores traballant en projectes propis, que 10 hores mirant tutorials. La motivació i la implició en el projecte ajudara a accelerar el teu aprenentatge.",
     bgColor: "rgb(151, 150, 150)",
-    image: meditation,
+    image: programming,
   },
   {
     title: "Procura descansar",
     description:
       "Descanasar bé i desconnectar són vitals. D´aquesta manera reduiràs l`estrés i l`ansietat. Milloraràs la teva concentració i consolidarás el teu aprenentatge.",
     bgColor: "rgb(252, 204, 116)",
-    image: programming,
+    image: meditation,
   },
 ];

@@ -1,5 +1,5 @@
 .card {
-  @apply flex flex-col bg-white rounded-3xl max-w-[320px] overflow-hidden ;
+  @apply flex flex-col bg-white rounded-3xl max-w-[320px] overflow-hidden;
 }
 .cardHeader {
   @apply h-72 flex items-center justify-center;
@@ -13,8 +13,8 @@
 .title {
   @apply text-stone-800 font-bold text-xl py-2;
 }
-.paragraf {
-  @apply text-stone-400 text-sm py-2;
+.description {
+  @apply text-stone-600 text-sm py-2;
 }
 .btnAction {
   @apply rounded-full px-4 py-2 w-[50px] h-[50px] flex items-center justify-center;
@@ -37,16 +37,16 @@
   max-width: 320px;
   animation: slideRight 600ms forwards;
 }
-.frame{
+.frame {
   max-width: 320px;
-   overflow: hidden;
+  overflow: hidden;
 }
 .frame > div {
   transition: transform 200ms ease-in-out;
   display: flex;
   width: 100vw;
 }
-.slideLeft{
+.slideLeft {
   animation: slideLeft 3000ms forwards;
 }
 @keyframes slideRight {
@@ -86,4 +86,3 @@
 .fade-exit-active .cardsImages{
   transition: opacity 500ms;
 } */
-
