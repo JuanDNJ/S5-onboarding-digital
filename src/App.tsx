@@ -2,10 +2,6 @@ import { useState } from "react";
 import Card from "./components/Card";
 import { tutorialData } from "./data";
 
-
-const  App = () =>  {
-import { tutorialData } from "./data";
-
 const App = () => {
   const [step, setStep] = useState(0);
 
@@ -19,11 +15,7 @@ const App = () => {
 
   return (
     <section className="container">
-      <Card
-        actions={actions}
-        step={step}
-        cardData={tutorialData}
-      />
+      <Card actions={actions} step={step} cardData={tutorialData} />
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import meditation from "../assets/svg/meditation.svg";
-import time_managment from "../assets/svg/time_managment.svg";
+import timeManagment from "../assets/svg/time_managment.svg";
 import programming from "../assets/svg/programming.svg";
+import { CardData } from "../types";
 
 export const tutorialData: CardData[] = [
   {
