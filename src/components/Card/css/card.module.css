@@ -67,22 +67,3 @@
     transform: translateX(-100%);
   }
 }
-
-/* .fade-enter{
-  opacity: 0;
-  animation: slideLeft 300ms forwards;
-}
-.fade-exit .cardsImages{
-  opacity: 1;
-  animation: slideRight 300ms forwards;
-}
-.fade-enter-active .cardsImages{
-  opacity: 1;
-}
-.fade-exit-active .cardsImages{
-  opacity: 0;
-}
-.fade-enter-active .cardsImages,
-.fade-exit-active .cardsImages{
-  transition: opacity 500ms;
-} */

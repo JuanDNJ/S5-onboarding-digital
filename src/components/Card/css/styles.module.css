@@ -42,12 +42,6 @@
 .cardImg {
   @apply aspect-video;
 }
-/* .cardImg {
-  animation: imgRight 300ms forwards;
-}
-.active {
-  animation: imgLeft 300ms forwards;
-} */
 
 @keyframes imgRight {
   0% {
